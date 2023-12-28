@@ -254,8 +254,7 @@ async function serverData ({
 
   MudiExperience({
     tokenApi:'oEXzKi59TKP6aUDH6Bba',
-    skuNumber:'2020homeprueba',
-    // skuNumber:document.querySelector('.sku').innerHTML,
+    skuNumber:document.querySelector('.sku').innerHTML,
     idCompanyMudi:315,
     color:'#004675',
     containerBtns:document.querySelector('.product-gallery'),
