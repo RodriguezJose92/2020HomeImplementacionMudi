@@ -254,11 +254,11 @@ async function serverData ({
     sendDataLayer({sku:skuNumber})
   };
 
-  /**MudiExperience({
+  /MudiExperience({
     tokenApi:'oEXzKi59TKP6aUDH6Bba',
     skuNumber:document.querySelector('.sku').innerHTML,
     idCompanyMudi:315,
     color:'#004675',
     containerBtns:document.querySelector('.product-gallery'),
     zIndexModal:1000000,
-  }) */
+  }) 
