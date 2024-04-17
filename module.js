@@ -1,3 +1,5 @@
+console.log('hello from Module JS Mudi')
+
 /* Petición Sever_____Mudi */
 async function serverData ({
     token = undefined,
