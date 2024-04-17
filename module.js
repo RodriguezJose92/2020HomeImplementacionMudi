@@ -214,9 +214,8 @@ function sendDataLayer({sku}){
             event:'Evento de interacción AR Mudi',
             valorMudi:1,
             sku:skuMudi,
-            categoria:document.querySelectorAll('.ambientegourmet-breadcrumb-2-x-link')[2] ? document.querySelectorAll('.ambientegourmet-breadcrumb-2-x-link')[2].innerHTML : 'null',
-            subCategoria:document.querySelectorAll('.ambientegourmet-breadcrumb-2-x-link')[3] ? document.querySelectorAll('.ambientegourmet-breadcrumb-2-x-link')[3].innerHTML : 'null',
-            seccion:document.querySelectorAll('.ambientegourmet-breadcrumb-2-x-link')[4] ? document.querySelectorAll('.ambientegourmet-breadcrumb-2-x-link')[4].innerHTML : 'null',
+            categoria: category,
+            subCategoria: subCategory,
             sistemaOperativo:OSdevice
         })
     },false);
@@ -227,9 +226,8 @@ function sendDataLayer({sku}){
             event:'Evento de interacción 3D Mudi',
             valorMudi:1,
             sku:skuMudi,
-            categoria:document.querySelectorAll('.ambientegourmet-breadcrumb-2-x-link')[2] ? document.querySelectorAll('.ambientegourmet-breadcrumb-2-x-link')[2].innerHTML : 'null',
-            subCategoria:document.querySelectorAll('.ambientegourmet-breadcrumb-2-x-link')[3] ? document.querySelectorAll('.ambientegourmet-breadcrumb-2-x-link')[3].innerHTML : 'null',
-            seccion:document.querySelectorAll('.ambientegourmet-breadcrumb-2-x-link')[4] ? document.querySelectorAll('.ambientegourmet-breadcrumb-2-x-link')[4].innerHTML : 'null',
+            categoria: category,
+            subCategoria: subCategory,
             sistemaOperativo:OSdevice
         })
     },false);
