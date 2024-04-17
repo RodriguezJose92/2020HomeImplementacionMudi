@@ -280,7 +280,7 @@ function experienceON(){
   if ( skuNumberHome && fatherContainer){
     MudiExperience({
       tokenApi:'oEXzKi59TKP6aUDH6Bba',
-      skuNumber:document.querySelector('.sku_wrapper').innerHTML,
+      skuNumber:document.querySelector('.sku').innerHTML,
       idCompanyMudi:315,
       color:'#325fa1',
       containerBtns:document.querySelector('.product-gallery'),
