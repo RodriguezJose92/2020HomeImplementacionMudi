@@ -188,7 +188,7 @@ function sendDataLayer({sku}){
 
     /** Evento de visualización */
     dataLayer.push({
-        event:'Evento de visualización Mudi',
+        event:'Evento de visualizacion Mudi',
         valorMudi:1,
         sku:skuMudi,
         categoria: category,
@@ -199,7 +199,7 @@ function sendDataLayer({sku}){
     /** Evento de intención de compra */
     document.querySelector('.single_add_to_cart_button').addEventListener('click',()=>{
         dataLayer.push({
-            event:'Evento de intención de compra Mudi',
+            event:'Evento de intencion de compra Mudi',
             valorMudi:1,
             sku:skuMudi,
             categoria: category,
@@ -211,7 +211,7 @@ function sendDataLayer({sku}){
     /** Evento de interación AR Mudi */
     document.getElementById('btnMudiAR').addEventListener('click',()=>{
         dataLayer.push({
-            event:'Evento de interacción AR Mudi',
+            event:'Evento de interaccion AR Mudi',
             valorMudi:1,
             sku:skuMudi,
             categoria: category,
@@ -223,7 +223,7 @@ function sendDataLayer({sku}){
     /** Evento de interación 3D Mudi */
     document.getElementById('btnMudi3D').addEventListener('click',()=>{
         dataLayer.push({
-            event:'Evento de interacción 3D Mudi',
+            event:'Evento de interaccion 3D Mudi',
             valorMudi:1,
             sku:skuMudi,
             categoria: category,
