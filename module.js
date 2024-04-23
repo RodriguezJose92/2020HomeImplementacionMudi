@@ -311,7 +311,7 @@ let products = [
   "Cama Multifuncional Berlín Blanco",
   "Cuna Cama Estela Rustico Blanco",
   "Clóset 6 Puertas 2 Cajones Valent Marrón",
-  "Mueble Alacena Auxiliar de Cocina Kit Azalea"
+  "Mueble Alacena Auxiliar de Cocina Kit Azalea 6 Puertas 1 Cajón Maderado Natural/Blanco Supremo"
 ];
 
 let verifyTakeTitlesCards = 0;
@@ -382,13 +382,17 @@ function createStyleIcon3D(){
 
       .containerIconMudi{
         position: absolute;
-        top: -5px;
+        top: 37px;
         z-index: 100;
-        right: -10px;
+        left: 5px;
       }
 
       .btnMudi3D{
-        width:70px
+        width:60px
+      }
+
+      .left{
+        left:17px !important
       }
 
       .cls-1{
@@ -409,14 +413,20 @@ function createStyleIcon3D(){
       @media screen and (max-width:500px){
         .containerIconMudi{
           position: absolute;
-          top: -3px;
+          top: inherit;
           z-index: 100;
           right: -5px;
+          bottom: 0;
         }
 
         .btnMudi3D{
-          width:50px
+          width:40px
         }
+
+        .left{
+          left:8px !important
+        }
+
       }
 
   `
